@@ -1,0 +1,5 @@
+<!ELEMENT ActressInfo (Actress*)>
+<!ELEMENT Actress EMPTY>
+<!ATTLIST Actress firstname CDATA #REQUIRED>
+<!ATTLIST Actress lastname CDATA #REQUIRED>
+<!ATTLIST Actress count CDATA #REQUIRED>
